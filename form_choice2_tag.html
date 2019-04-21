@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <!-- radio는 name값이 같은것들끼리 그루핑되고 같은 그룹에 속하는것중 하나가 선택이되면 나머지 선택이 헤제되는 버튼 -->
+        <form action="https://www.naver.com">
+            <p>
+                    <h1>색상(단일선택)</h1>
+                    붉은색 : <input type="radio" name="color" value="red">
+                    검은색 : <input type="radio" name="color" value="black" checked>
+                    파란색 : <input type="radio" name="color" value="blue">
+            </p>
+            
+        <p>
+            <!-- 같은 네임을 가지고 있는 여러개의 컨트롤을 다중으로 선택할 수 있다 -->
+            <h1>사이즈(다중선택)</h1>
+                95 : <input type="checkbox" name="size" value="95">
+                100 : <input type="checkbox" name="size" value="100" checked>
+                105 : <input type="checkbox" name="size" value="105" checked>
+        </p> 
+        <input type="submit">
+        </form>
+    </body>
+</html>
